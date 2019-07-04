@@ -6257,9 +6257,6 @@ a.waves-effect, a.waves-light {
     .navbar.navbar-light form .md-form .form-control::-webkit-input-placeholder {
       color: #000;
       font-weight: 300; }
-    .navbar.navbar-light form .md-form .form-control:-ms-input-placeholder {
-      color: #000;
-      font-weight: 300; }
     .navbar.navbar-light form .md-form .form-control::-ms-input-placeholder {
       color: #000;
       font-weight: 300; }
@@ -6297,9 +6294,6 @@ a.waves-effect, a.waves-light {
   .navbar.navbar-dark form .md-form .form-control {
     color: #fff; }
     .navbar.navbar-dark form .md-form .form-control::-webkit-input-placeholder {
-      color: #fff;
-      font-weight: 300; }
-    .navbar.navbar-dark form .md-form .form-control:-ms-input-placeholder {
       color: #fff;
       font-weight: 300; }
     .navbar.navbar-dark form .md-form .form-control::-ms-input-placeholder {
@@ -7150,7 +7144,6 @@ body.scrollable {
     .md-form .prefix ~ input,
     .md-form .prefix ~ textarea {
       margin-left: 2.5rem;
-      width: -webkit-calc(100% - 2.5rem);
       width: calc(100% - 2.5rem); }
     .md-form .prefix ~ label {
       margin-left: 2.5rem; }
@@ -7188,7 +7181,6 @@ body.scrollable {
     .md-form.form-lg .prefix ~ input,
     .md-form.form-lg .prefix ~ textarea {
       margin-left: 3rem;
-      width: -webkit-calc(100% - 3rem);
       width: calc(100% - 3rem); }
     .md-form.form-lg .prefix ~ label {
       margin-left: 3rem; }
@@ -7206,7 +7198,6 @@ body.scrollable {
     .md-form.form-sm .prefix ~ input,
     .md-form.form-sm .prefix ~ textarea {
       margin-left: 2rem;
-      width: -webkit-calc(100% - 2rem);
       width: calc(100% - 2rem); }
     .md-form.form-sm .prefix ~ label {
       margin-left: 2rem; }

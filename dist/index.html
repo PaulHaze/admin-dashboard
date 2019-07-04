@@ -21,19 +21,95 @@
   </head>
 
   <body>
-    <!-- Start your project here-->
-    <div style="height: 100vh">
-      <div class="flex-center flex-column">
-        <h1 class="animated fadeIn mb-4">Admin</h1>
+    <!--Main Navigation-->
+    <header>
+      <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+          <div class="sidebar-header">
+            <h3>Bootstrap Sidebar</h3>
+          </div>
 
-        <h5 class="animated fadeIn mb-3">
-          Thank you for using our product. We're glad you're with us.
-        </h5>
+          <ul class="list-unstyled components">
+            <p>Dummy Heading</p>
+            <li class="active">
+              <a
+                href="#homeSubmenu"
+                data-toggle="collapse"
+                aria-expanded="false"
+                class="dropdown-toggle"
+                >Home</a
+              >
+              <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                  <a href="#">Home 1</a>
+                </li>
+                <li>
+                  <a href="#">Home 2</a>
+                </li>
+                <li>
+                  <a href="#">Home 3</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a
+                href="#pageSubmenu"
+                data-toggle="collapse"
+                aria-expanded="false"
+                class="dropdown-toggle"
+                >Pages</a
+              >
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#">Page 1</a>
+                </li>
+                <li>
+                  <a href="#">Page 2</a>
+                </li>
+                <li>
+                  <a href="#">Page 3</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Sidebar -->
 
-        <p class="animated fadeIn text-muted">MDB Team</p>
+        <!-- Main header -->
+        <div class="container">
+          <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                  <i class="fas fa-align-left"></i>
+                  <span>Toggle Sidebar</span>
+                </button>
+              </div>
+            </nav>
+          </div>
+          <h1>Some content</h1>
+        </div>
       </div>
-    </div>
-    <!-- /Start your project here-->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main></main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer></footer>
+    <!--Footer-->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->

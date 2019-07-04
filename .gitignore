@@ -61,3 +61,4 @@ typings/
 .next
 .prettierrc
 .eslintrc.json
+package-lock.json
